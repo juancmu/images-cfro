@@ -1,0 +1,63 @@
+/* App.css */
+
+.toggle-switch-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .toggle-switch-checkbox {
+    display: none;
+  }
+  
+  .toggle-switch-label {
+    display: block;
+    width: 120px; /* Increased width to accommodate the labels */
+    height: 26px;
+    background-color: #ccc;
+    border-radius: 13px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .toggle-switch-inner {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 2px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-switch-switch {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #9c1717;
+    border-radius: 50%;
+    position: absolute;
+    transition: left 0.3s ease;
+  }
+  
+  .toggle-switch-label-text {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    font-size: 12px;
+    line-height: 56px;
+  }
+  
+  .toggle-switch-label-text:last-child {
+    left: auto;
+    right: 5px;
+  }
+  
+  .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+    transform: translateX(24px);
+  }
+  
+  .toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+    left: 24px;
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "home": {
+      "title": {
+        "en": "Home",
+        "es": "Inicio"
+      },
+      "description": {
+        "en": "Welcome to our website!",
+        "es": "¡Bienvenido a nuestro sitio web!"
+      }
+    },
+    "about": {
+      "title": {
+        "en": "About Us",
+        "es": "Sobre Nosotros"
+      },
+      "description": {
+        "en": "Learn more about our company.",
+        "es": "Conoce más sobre nuestra empresa."
+      }
+    }
+  }
+  
